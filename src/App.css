@@ -3,8 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height:50px;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
@@ -35,4 +34,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.card-block {
+    height: 250px;
+    width: 300px;
+    border: 5px solid #737373;
+}
+
+.card-div {
+    height: 260px;
+}
+
+.card-blur {
+}
+
+.label-div {
+    color: darkcyan;
+    font-size: 30px;
+}
+
+.my-container {
+}
+
+.four-pointed-star {
+    position: relative;
+    margin: auto;
+    width: 1em;
+    font-size: 0.5em;
+}
+
+    .four-pointed-star:before {
+        content: "";
+        position: absolute;
+        background: darkcyan;
+        width: 1em;
+        height: 1.15em;
+        transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+    }
+
+    .four-pointed-star:after {
+        content: "";
+        position: absolute;
+        background: darkcyan;
+        width: 1em;
+        height: 1.15em;
+        transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+    }
+
+.body-background {
+    background-color: papayawhip;
 }
